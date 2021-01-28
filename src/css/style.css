@@ -663,3 +663,28 @@ h2,h3,h5,h6{
 #accordion {
     padding-top:100px;
 }
+
+.lol {
+    color: #05a893;
+    animation: lol 2s forwards;
+}
+@keyframes lol {
+    0%{
+        background-color: white;
+    }
+    30%{
+        background-color: red;
+    }
+    60%{
+        background-color: white;
+    }
+    90%{
+        background-color: red;
+    }
+    100%{
+        background-color: white;
+    }
+}
+.form__field {
+    color: black;
+}
